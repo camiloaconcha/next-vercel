@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 import React from "react";
 import { useBarcode } from "next-barcode";
 
@@ -14,7 +14,7 @@ const BarcodeGenerator = ({ price }) => {
     },
   });
 
-  return <svg ref={inputRef}></svg>;
+  return <svg id="barcode" ref={inputRef}></svg>;
 };
 
 export default BarcodeGenerator;
